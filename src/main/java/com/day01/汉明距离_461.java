@@ -1,5 +1,8 @@
 package com.day01;
 
+/**
+ * https://leetcode-cn.com/problems/hamming-distance/
+ */
 public class 汉明距离_461 {
 }
 class Solution38 {
