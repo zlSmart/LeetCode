@@ -9,27 +9,6 @@ import java.util.List;
  */
 public class 三角形最小路径和_120 {
     public static void main(String[] args) {
-        // [[2],[3,4],[6,5,7],[4,1,8,3]]
-        List<List<Integer>> lists = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
-        List<Integer> list2 = new ArrayList<>();
-        List<Integer> list3 = new ArrayList<>();
-        List<Integer> list4 = new ArrayList<>();
-        list.add(2);
-        lists.add(list);
-        list2.add(3);
-        list2.add(4);
-        lists.add(list2);
-        list3.add(6);
-        list3.add(5);
-        list3.add(7);
-        lists.add(list3);
-        list4.add(4);
-        list4.add(1);
-        list4.add(8);
-        list4.add(3);
-        lists.add(list4);
-        System.out.println(new Solution().minimumTotal(lists));
     }
 }
 // 空间优化
