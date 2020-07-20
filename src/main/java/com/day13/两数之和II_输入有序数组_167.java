@@ -5,7 +5,7 @@ package com.day13;
  */
 public class 两数之和II_输入有序数组_167 {
 }
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] numbers, int target) {
         int[] result = {1,numbers.length};
         while(true){
