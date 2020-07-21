@@ -25,7 +25,7 @@ class TreeNode {
         this.right = right;
     }
 }
-class Solution {
+class Solution1 {
     public List<TreeNode> generateTrees(int n) {
         if(n==0) return new ArrayList<>();
         return generate(1,n);
