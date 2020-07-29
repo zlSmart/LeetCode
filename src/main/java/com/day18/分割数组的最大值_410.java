@@ -6,10 +6,6 @@ import java.util.Arrays;
  * https://leetcode-cn.com/problems/split-array-largest-sum/
  */
 public class 分割数组的最大值_410 {
-    public static void main(String[] args) {
-        int[] nums = {7,2,5,10,8};
-        new Solution().splitArray(nums,2);
-    }
 }
 class Solution {
     public int splitArray(int[] nums, int m) {
@@ -25,7 +21,7 @@ class Solution {
         for(int i = 1;i<=n;i++){
             for(int j = 1;j<=Math.min(i,m);j++){
                 for(int k = 0;k<i;k++) {
-                    System.out.println(i+ " " + j+ " " +k);
+//                    System.out.println(i+ " " + j+ " " +k);
                     dp[i][j] = Math.min(dp[i][j], Math.max(dp[k][j-1],sub[i]-sub[k]));
                 }
             }
