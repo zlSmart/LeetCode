@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class 最长定差子序列_1218 {
 }
-class Solution {
+class Solution1 {
     public int longestSubsequence(int[] arr, int difference) {
         Map<Integer,Integer> maps = new HashMap<>();
         int ans = 0;
