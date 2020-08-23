@@ -5,7 +5,7 @@ package com.weeks.week2;
  */
 public class 回文子串_647 {
 }
-class Solution {
+class Solution3 {
     public int countSubstrings(String s) {
         StringBuilder builder = new StringBuilder();
         builder.append("$#");
