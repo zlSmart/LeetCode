@@ -2,7 +2,7 @@ package com.weeks.week4;
 
 public class 盛最多水的容器_11 {
 }
-class Solution {
+class Solution9 {
     public int maxArea(int[] height) {
         int result = 0;
         int n = height.length-1;
